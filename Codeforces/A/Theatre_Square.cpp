@@ -15,7 +15,7 @@
         }
         else
         {
-            remx+ = 1 + (x/a);
+            remx += 1 + (x/a);
         }
         if (y % a == 0){
             remy += y / a;
