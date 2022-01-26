@@ -9,7 +9,7 @@
         long long remx, remy;
         remx = 0;
         remy = 0;
-        if (x%a == 0){
+        if (x % a == 0){
                 remx += x / a;
      
         }
@@ -25,5 +25,5 @@
             remy += 1 + (y/a);
         }
         cout << remx * remy;
-    return 0;
+        return 0;
     }
