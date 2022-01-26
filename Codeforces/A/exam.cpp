@@ -2,7 +2,7 @@
     using namespace std;
     int main()
     {
-        long long i,mid,n;
+        long long i, mid, n;
         cin >> n;
         mid = n / 2;
         if(n <= 2)
@@ -24,9 +24,9 @@
         {
                 cout << n << endl;
                 for(i = 1; i <= n; i+= 2)
-                    cout << i <<" ";
+                    cout << i << " ";
                 for(i = 2; i <= n; i+= 2)
-                    cout<< i <<" ";
-            cout<<endl;
+                    cout << i << " ";
+            cout << endl;
         }
     }
