@@ -3,12 +3,13 @@
 int main()
 {
     int n;
-    scanf("%d",&n);
-    for(long long int i=1;i<=n;i++)
+    scanf("%d", &n);
+    long long int i;
+    for(i = 1; i <= n; i++)
     {
-        if(i%2==0)
+        if(i % 2 == 0)
         {
-            printf("%lld^2 = %lld\n",i,i*i);
+            printf("%lld^2 = %lld\n", i, i*i);
         }
     }
     return 0;
