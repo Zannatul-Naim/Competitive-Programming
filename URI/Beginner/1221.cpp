@@ -12,23 +12,23 @@ int main()
     ios::sync_with_stdio(0);
     cin.tie(0);
     int t;
-    cin>>t;
+    cin >> t;
     while(t--)
     {
         ll n;
-        cin>>n;
-        int cnt=0;
-        for(int i=2;i*i<n;i++)
+        cin >> n;
+        int cnt = 0;
+        for(int i = 2; i*i < n; i++)
         {
-            if(n%i==0)
+            if(n % i == 0)
                 {
                     cnt++;
                 }
         }
-        if(cnt==0)
-        cout<<"Prime"<< "\n";
+        if(cnt == 0)
+        cout << "Prime" << "\n";
         else
-        cout<<"Not Prime"<< "\n";
+        cout << "Not Prime" << "\n";
     }
     return 0;
 }
