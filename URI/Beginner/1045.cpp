@@ -6,12 +6,12 @@ using namespace std;
  
 int main() {
         double a,b,c,temp;
-        cin>>a>>b>>c;
-        if(a<b)
+        cin >> a >> b >> c;
+        if(a < b)
         {
-            temp=a;
-            a=b;
-            b=temp;
+            temp = a;
+            a = b;
+            b = temp;
         }
        if (b < c)
 
@@ -22,11 +22,11 @@ int main() {
       }
     if(a<b)
         {
-            temp=a;
-            a=b;
-            b=temp;
-        }
-        if(a>=(b+c))
+            temp = a;
+            a = b;
+            b = temp;
+        } 
+        if(a >= (b+c))
         {
         cout<<"NAO FORMA TRIANGULO"<<"\n";
         }
