@@ -21,8 +21,8 @@ int main() {
          }
 
     }
-        cout<<"Menor valor: "<<mini<<endl;
-        cout<<"Posicao: "<<x<<endl;
+        cout << "Menor valor: " << mini << endl;
+        cout<< "Posicao: " << x << endl;
 
     return 0;
 }
