@@ -20,11 +20,6 @@ void solve() {
 	int x, y, n;
 	cin >> x >> y >> n;
 
-	if(x > n) {
-		cout << "0" << endl;
-		return;
-	}
-
 	int k = n - n%x ;
 
 	if(k+y <= n) {
