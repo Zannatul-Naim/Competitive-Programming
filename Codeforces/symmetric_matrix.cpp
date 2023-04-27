@@ -26,3 +26,67 @@ int main()
     }
     return 0;
 }
+
+
+
+
+// second code
+/*
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define ll long long
+#define endl "\n"
+#define in cin >>
+#define out cout <<
+#define pb push_back
+
+void fastIO() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(0);
+	cout.tie(0);
+}
+
+
+void solve() {
+
+	int n, m;
+	cin >> n >> m;
+
+	bool ans = false;
+
+	while(n--) {
+		int a, b, c, d;
+		cin >> a >> b;
+		cin >> c >> d;
+
+		if(b == c) {
+			ans = true;
+		}
+	}
+
+	if(ans == true and m%2 == 0) {
+		cout << "YES" << endl;
+		return;
+	}
+
+	cout << "NO" << endl;
+
+}	
+
+int main()
+{
+	fastIO();
+
+	int t = 1;
+	cin >> t;
+
+	while(t--) {
+	  solve();
+	}
+
+	return 0;
+}
+
+*/
