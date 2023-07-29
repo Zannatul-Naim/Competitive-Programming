@@ -1,15 +1,31 @@
-#include <iostream>
+#include<bits/stdc++.h>
+#include<sstream>
 using namespace std;
-int main() {
-  long long int a,b;
-  cin>>a>>b;
-  for(int i=0;i<b;i++)
-  {
-    if(a%10==0)
-    a/=10;
-    else
-    a-=1;
-  }
-cout<<a<<"\n";
-  return 0;
+
+#define ll long long
+#define endl "\n"
+
+void solve() {
+	
+	int n, k;
+	cin >> n >> k;
+
+	while(k--) {
+		if(n%10) n--;
+		else n /= 10;
+	}
+
+	cout << n << endl;
+
+}
+
+int main()
+{
+
+	int t = 1;
+	// cin >> t;
+
+	while(t--) solve();
+
+	return 0;
 }
