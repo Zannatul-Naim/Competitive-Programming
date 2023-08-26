@@ -14,19 +14,19 @@ void fastIO()
 
 void solve() {
 
-    int n;
+    ll n;
     cin >> n;
     string s;
     cin >> s;
 
-    int mx = 1, cur = 1, one = 0, zero = 0;
+    ll mx = 1, cur = 1, one = 0, zero = 0;
 
     for(auto i : s) {
         if(i == '0') zero++;
         else one++;
     }
 
-    for(int i = 0; i < n-1; i++) {
+    for(ll i = 0; i < n-1; i++) {
         if(s[i] == s[i+1]) {
             cur++;
         } else {
@@ -37,8 +37,7 @@ void solve() {
 
     mx = max(mx, cur);
 
-    int ans = max(mx*mx, zero*one);
-	cout << ans << endl;
+	cout << max(mx*mx, zero*one) << endl;
 
 
 }
